@@ -16,7 +16,7 @@
         <div class="home">
             <a href="/">
                 <span class="material-symbols-outlined">
-                home
+                    home
                 </span>
             </a>
 
@@ -29,26 +29,50 @@
         <div class="classify">
             <span class="material-symbols-outlined">
                 search
-                </span>
+            </span>
 
         </div>
     </div>
 
     <div name="mainBody" class="mainBody">
         <div class="mainContent">
-            <span name="Description">In this application we will classify the Various Texts and provide a toxicity report for each of them.
+            <span name="Description">The Report for the given phrase :-
                 <br>
+                {{data}}
+                <br>
+                <ul>
 
-                With an increase in the need of online communication, multiple websites and applications have integrated an in-application messaging option. It is a very convenient and useful feature but it is also important to discourage any toxicity.
-                Our aim is to make a toxicity detection module which can predict the amount of toxicity in a particular text. This module can help identify any toxic texts or even people which can then be reported to the authorities.
+                    
+                    <li>
+                        Toxic :- {{(pred[0])}}%
+                    </li>
+
+                    <li>
+                        Severe Toxic :- {{(pred[1])}}%
+                    </li>
+
+                    <li>
+                        Obscene :- {{(pred[2])}}%
+                    </li>
+
+                    <li>
+                        Threat :- {{(pred[3])}}%
+                    </li>
+
+                    <li>
+                        Insult :- {{(pred[4])}}%
+                    </li>
+
+                    <li>
+                        Identity Hate :- {{(pred[5])}}%
+                    </li>
+
+
+                </ul>
+
+                
             </span>
 
-        </div>
-        <div class="inputDiv">
-            <form class="inputDiv" method="POST" action="/predict">
-                <input class="inputButton" id="submit" type="submit" value="Press Here to Check the Toxicity">
-                <input class="inputFeild" type="text" rows="10" cols="60" name="data" value="Start Typing Here">
-            </form>
         </div>
     </div>
 

@@ -95,7 +95,7 @@ body {
     justify-content: center;
     flex-direction: column;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     padding: 1vw;
     margin: 1vw;
     text-align: justify;
@@ -106,6 +106,27 @@ body {
 
 .mainContent {
     display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+    font-weight: 300;
+    width: 80vw;
+    height: 15vh;
+    padding: 1vw;
+    margin: 1vw;
+    text-align: justify;
+    line-height: 2em;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    border-left: #373535 0.2em dashed;
+    border-bottom: #373535 0.2em dashed;
+    border-radius: 7px;
+}
+
+.inputDiv {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -113,11 +134,28 @@ body {
     font-size: large;
     font-weight: 300;
     width: 80vw;
-    height: 90vh;
+    height: 25vh;
     padding: 1vw;
     margin: 1vw;
-    text-align: justify;
-    line-height: 2em;
-    letter-spacing: 3px;
-    word-spacing: 10px;
+}
+
+.inputButton {
+    padding: 1vw;
+    margin: 1vw;
+    background-color: #fff5f500;
+    width: 80 vw;
+    border-radius: 10px;
+    border: #373535 0 solid;
+}
+
+.inputFeild {
+    text-align: center;
+    width: 80vw;
+    height: 20vh;
+    padding: 1vw;
+    margin: 1vw;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+    font-weight: 300;
+    text-decoration: double;
 }
