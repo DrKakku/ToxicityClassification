@@ -1,0 +1,123 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F8F8FF;
+    color: #262626;
+}
+
+.NavBar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 1vh;
+    padding: 20px;
+    padding-top: 4.7vh;
+    padding-bottom: 4.7vh;
+    background-color: #e5e4e2;
+    /* font-family: 'Permanent Marker', cursive; */
+}
+
+.TitleText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #d1d1cd;
+    font-weight: 400;
+    font-size: 1.7em;
+    padding: 5px;
+    width: 80vw;
+    height: 4vh;
+    border-radius: 7px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #d1d1cd;
+    padding: 5px;
+    height: 4vh;
+    width: 5vw;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.classify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #d1d1cd;
+    padding: 5px;
+    height: 4vh;
+    width: 5vw;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.NavBar a {
+    float: left;
+    display: block;
+    text-align: center;
+    color: inherit;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.NavBar a :hover {
+    float: left;
+    display: block;
+    text-align: center;
+    color: beige;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 300, 'opsz' 48
+}
+
+.mainBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+    padding: 1vw;
+    margin: 1vw;
+    text-align: justify;
+    line-height: 2em;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+.mainContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+    font-weight: 300;
+    width: 80vw;
+    height: 90vh;
+    padding: 1vw;
+    margin: 1vw;
+    text-align: justify;
+    line-height: 2em;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
