@@ -15,3 +15,7 @@ We aim to train the model using the kaggle jigsaw toxic comment classification d
 This application will help business to filter toxic text form any portal such as product review pages or other portals where text can be entered and be displayed publicly.
 
 
+## What can we use this app with 
+
+To demonstrate the use of this app we have created a app which can be used in tandom with this app to demonstrate its capability.
+- [Lyrics Toxicity classifier](https://github.com/DrKakku/LyricsToxicity)
